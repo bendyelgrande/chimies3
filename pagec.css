@@ -642,7 +642,7 @@
         width: 40px;
         height: 40px;
         position: absolute;
-      
+      background-color: red;
         cursor: pointer;
         rotate: 20px;
     }
@@ -650,7 +650,7 @@
         width: 35px;
         height: 35px;
         position: absolute;
-       
+        background-color: red;
         cursor: pointer;
         rotate: 20px;
     }
@@ -658,7 +658,7 @@
         width:45px;
         height: 45px;
         position: absolute;
-       
+        background-color: red;
         cursor: pointer;
         rotate: 20px;
     }
@@ -1020,7 +1020,7 @@
              display: none; 
         }*/
              #men{
-            margin-top: -790px;
+            margin-top: -600px;
             font-size: 18px;
             font-weight: 500;
             }
@@ -1039,11 +1039,30 @@
             #pic{
                 width: 100%;
                 height: 100%;
+                display: block;
             }
             #first{
-display: flex;
+          display: flex;
             }
-
+            #pre, #pre4, #pre8, #pre12{
+                margin-left: 480px;
+            }
+            #pre, #pre1, #pre2, #pre3{
+                margin-top: -460px;
+            }
+            #pre4, #pre5, #pre6, #pre7{
+                margin-top: -360px;
+            }
+            #pre2, #pre5, #pre9, #pre13{
+                margin-left: 560px;
+            }
+            #pre1, #pre6, #pre10, #pre14{
+                margin-left: 640px;
+            }
+            #pre3, #pre7, #pre11, #pre15{
+                margin-left: 715px;
+            }
+                   
              }
              
         
