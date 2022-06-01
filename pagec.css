@@ -642,7 +642,7 @@
         width: 40px;
         height: 40px;
         position: absolute;
-      background-color: red;
+     
         cursor: pointer;
         rotate: 20px;
     }
@@ -650,7 +650,7 @@
         width: 35px;
         height: 35px;
         position: absolute;
-        background-color: red;
+       
         cursor: pointer;
         rotate: 20px;
     }
@@ -658,7 +658,7 @@
         width:45px;
         height: 45px;
         position: absolute;
-        background-color: red;
+     
         cursor: pointer;
         rotate: 20px;
     }
