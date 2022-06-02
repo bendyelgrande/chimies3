@@ -774,27 +774,7 @@
                 width: 800px;
             }
                 
-          /*  .nav{
-            padding: 15px 20px;
-            
-        }
-        .ham {
-            display: block;
-            order: 1;
-        }
-        .nav-icon{
-            order:3;
-            margin-left: 13%;
-            
-        }
-       
-        .main-navlinks {
           
-        order: 2;
-        }
-        #mns{
-             display: none; 
-        }*/
              #men{
             margin-top: -650px;
             font-size: 18px;
@@ -840,7 +820,70 @@
             }
                    
              }
-             
-        
+             @media (max-width: 840px){
+          .nav{
+            padding: 15px 20px;
+        }
+        .ham {
+            display: block;
+            order: 1;
+            width: 25px;
+        }
+        .nav-icon{
+            order:3;
+            margin-left: 13%;   
+        }
+       
+        .main-navlinks {
+        order: 2;
+        }
+        #mns{
+             display: none; 
+        }
+        .container{
+            margin-left: 35%;
+        }
+        #nsa{
+            width: 110%;
+        }
+        #nsa-text{
+            width: 540px;
+        }
+        #con{
+            width: 110%;
+        }
+        #con-text{
+            width: 590px;
+        }
+        #cace{
+            width: 110%;
+        }
+        #cace-text{
+            width: 630px;
+        }
+        .cace{
+            width: 240px;
+            top: 2%;
+        }
+        #pgs{
+            width: 110%;
+        }
+        #pgs-text{
+            width: 590px;
+        }
+        #cdm{
+            width: 110%;
+        }
+        #cdm-text{
+            width: 490px;
+        }
+        #men{
+            position: fixed;
+            margin-top: -690px;
+        }
+        #fiches2{
+            top: 255%
+        }
+    }
 
     
