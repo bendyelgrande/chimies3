@@ -742,25 +742,7 @@
                 }
              }
              @media (max-width: 900px){
-          .nav{
-            padding: 15px 20px;
-        }
-        .ham {
-            display: block;
-            order: 1;
-            width: 25px;
-        }
-        .nav-icon{
-            order:3;
-            margin-left: 13%;   
-        }
-       
-        .main-navlinks {
-        order: 2;
-        }
-        #mns{
-             display: none; 
-        }
+         
         .container{
             margin-left: 35%;
         }
@@ -831,6 +813,15 @@
             #nsa, #cace, #con, #pgs, #cdm{
                 width: 120%;
             }
+            #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
+                width: 550px;
+                }
+                #fiches,#fiches2,#fiches3,#fiches4,#fiches5{
+                    display: none;
+                } 
+                #men{
+                    margin-top: -990px;
+                }
         }
     @media (max-width: 540px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
