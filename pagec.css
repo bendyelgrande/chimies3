@@ -654,6 +654,12 @@
      @media (orientation:portrait){
 #r
 {display: none;}
+.container-img{
+    margin-left: 5%;
+}
+#left{
+    margin-top: 10px;
+}
      }
      #men{
          height: auto;
