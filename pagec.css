@@ -657,6 +657,9 @@
                     width: 1100px;
                     height: 500px;
                 }
+                .container{
+                    margin-left: 35%;
+                           }
                 #cdm-text{
                     width: 1100px;
                 }
@@ -731,26 +734,35 @@
              }
              @media (max-width: 1140px){
                 #nsa-text , #con-text,  #cace-text{
-                    width: 800px;
+                    width: 850px;
                     height: 500px;
                 }
+                .container{
+                    margin-left: 35%;
+                           }
                 #cdm-text{
-                    width: 800px;
+                    width: 850px;
                 }
                  #pgs-text{
-                    width: 800px;
+                    width: 850px;
+                }
+                #fiches,#fiches2,#fiches3,#fiches4,#fiches5{
+                    display:none;
                 }
              }
              @media (max-width: 900px){
+                .btn, .btns{
+                    display: none;
+                }
          
         .container{
-            margin-left: 35%;
+ margin-left: 35%;
         }
         #nsa, #cace, #con, #pgs, #cdm{
             width: 100%;
         }
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 620px;
+            width: 750px;
         }
         #con{
             width: 100%;
@@ -783,12 +795,15 @@
     
     @media (max-width: 800px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 540px;
+            width: 640px;
             }
+            .container{
+                margin-left: 30%;
+                       }
         }
     @media (max-width: 740px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 500px;
+            width: 580px;
             }
             #nsa, #cace, #con, #pgs, #cdm{
                 width: 103%;
@@ -802,7 +817,7 @@
         }
     @media (max-width: 650px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 420px;
+            width: 520px;
             }
             #nsa, #cace, #con, #pgs, #cdm{
                 width: 110%;
@@ -820,12 +835,17 @@
                     display: none;
                 } 
                 #men{
-                    margin-top: -990px;
+                margin-top: -1090px;
                 }
+                #fichest{
+                    width: 120%;
+                }
+                
+                
         }
     @media (max-width: 540px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 360px;
+            width: 510px;
             }
             #nsa, #cace, #con, #pgs, #cdm{
                 width: 130%;
@@ -833,7 +853,7 @@
         }
     @media (max-width: 470px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 360px;
+            width: 490px;
             }
             #nsa, #cace, #con, #pgs, #cdm{
                 width: 140%;
@@ -841,7 +861,7 @@
         }
     @media (max-width: 420px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 360px;
+            width: 450px;
             }
              #cace, #con, #pgs, #cdm{
                 width: 159%;
@@ -849,7 +869,7 @@
         }
     @media (max-width: 360px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 360px;
+            width: 430px;
             }
              #cace, #con, #pgs, #cdm{
                 width: 175%;
@@ -857,7 +877,7 @@
         }
     @media (max-width: 320px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
-            width: 360px;
+            width: 400px;
             }
              #cace, #con, #pgs, #cdm{
                 width: 200%;
