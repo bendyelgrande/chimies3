@@ -290,10 +290,9 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
       }
-      
-      
+     
     #men{
-       margin-top: -587px;
+        margin-top: 2%;
         font-size: 16px;
         font-weight: 500;
         text-decoration: none;
@@ -652,6 +651,9 @@
         width: 20px;
      }
      @media (orientation:portrait){
+         .img{
+             background-color: #2c1a1a;
+         }
 #r
 {display: none;}
 .container-img{
@@ -701,7 +703,7 @@
                          
           
              #men{
-            margin-top: -650px;
+            margin-top: -300px;
             font-size: 18px;
             font-weight: 500;
             }
@@ -798,7 +800,7 @@
         
         #men{
             position: fixed;
-            margin-top: -690px;
+            margin-top: -300px;
         }
         #fiches2{
             top: 255%
@@ -848,7 +850,7 @@
                     display: none;
                 } 
                 #men{
-                margin-top: -1090px;
+                margin-top: -300px;
                 }
                 #fichest{
                     width: 120%;
@@ -896,3 +898,4 @@
                 width: 200%;
             }
         }
+  
