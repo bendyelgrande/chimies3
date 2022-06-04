@@ -654,7 +654,7 @@
         #pic{
         width:200% ;
         height: 200%;
-        display:block;
+       
         }
         
          .im{
@@ -891,6 +891,9 @@
             #nsa, #cace, #con, #pgs, #cdm{
                 width: 140%;
             }
+            #men{
+                margin-top: -400px;
+            }
         }
     @media (max-width: 420px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
@@ -899,6 +902,10 @@
              #cace, #con, #pgs, #cdm{
                 width: 159%;
             }
+            #men{
+                margin-top: -600px;
+            }
+            
         }
     @media (max-width: 360px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
@@ -907,6 +914,22 @@
              #cace, #con, #pgs, #cdm{
                 width: 175%;
             }
+            #men{
+                margin-top: -800px;
+            }
+            
+        }
+    @media (max-width: 350px){
+        #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
+            width: 400px;
+            }
+             #cace, #con, #pgs, #cdm{
+                width: 200%;
+            }
+            #men{
+                margin-top: -900px;
+            }
+            
         }
     @media (max-width: 320px){
         #nsa-text, #con-text, #cace-text, #pgs-text, #cdm-text{
@@ -915,5 +938,9 @@
              #cace, #con, #pgs, #cdm{
                 width: 200%;
             }
+            #men{
+                margin-top: -950px;
+            }
+            
         }
   
